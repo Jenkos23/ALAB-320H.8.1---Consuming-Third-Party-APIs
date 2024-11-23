@@ -6,7 +6,7 @@
 ## Description
 The Starships App is a React application that fetches and displays a list of starships from SWAPI https://swapi.dev/api/. The application handles loading states and error handling gracefully, providing a smooth user experience. It showcases the power of React hooks and component-based architecture. 
 
-##Note: A setTimer was used to load the content on the browser for 2000 seconds before display
+## Note: A setTimer was used to load the content on the browser for 2000 seconds before display
 
 ## Features
 - Lists starships with details such as name, model, manufacturer, and crew.
