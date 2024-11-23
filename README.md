@@ -70,6 +70,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 For any inquiries or feedback, feel free to reach out to me:
 
 - Jenn Ezieke - [kokospicy23@gmail.com]
-- GitHub: [yourusername](https://github.com/Jenkos23)
+- GitHub: [Jenkos23](https://github.com/Jenkos23)
 ```
 
