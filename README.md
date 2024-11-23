@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+```markdown
+# Starships App
 
-In the project directory, you can run:
+## Description
+The Starships App is a React application that fetches and displays a list of starships from SWAPI https://swapi.dev/api/. The application handles loading states and error handling gracefully, providing a smooth user experience. It showcases the power of React hooks and component-based architecture. 
 
-### `npm start`
+##Note: A setTimer was used to load the content on the browser for 2000 seconds before display
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Lists starships with details such as name, model, manufacturer, and crew.
+- Displays loading status while fetching data.
+- Provides error messages in case of data fetching failure.
+- Responsive and styled components for better user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- React
+- Custom Hooks
+- CSS for styling
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/starships-app.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd starships-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and go to `http://localhost:3000`.
 
-### `npm run eject`
+## Usage
+Once the app is running, you should see a list of starships loading on the main screen. The app will display a loading message while fetching the data. In case of an error, an error message will be shown. If the data loads successfully, the starships will be displayed in individual cards with their details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Code Overview
+The main components of the application include:
+- **Home.js**: The main component that handles fetching the starship data and rendering the UI.
+- **useStarships.js**: A custom hook for fetching starship data from a data source (e.g., an external API).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Home Component
+In the `Home.js` file, conditional rendering is implemented to handle different states:
+- **Loading State**: Displays a loading message while data is being fetched.
+- **Error State**: Displays an error message if there is an issue with the data fetch.
+- **Data State**: Displays the list of starships fetched successfully.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to submit a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is open-source and available under the [MIT License](LICENSE).
 
-## Learn More
+## Contact
+For any inquiries or feedback, feel free to reach out to me:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Jenn Ezieke - [kokospicy23@gmail.com]
+- GitHub: [yourusername](https://github.com/Jenkos23)
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
