@@ -27,7 +27,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/starships-app.git
+   git clone [https://github.com/Jenkos23/ALAB-320H.8.1---Consuming-Third-Party-APIs.git]
    ```
    
 2. Navigate to the project directory:
