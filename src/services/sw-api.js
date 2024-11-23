@@ -5,11 +5,16 @@ export default async function GetAllStarships(){
   try {
      const  response =  await fetch(url);
      if (!response.ok){
-        
+        throw new Error('Error in network response')
+
      }
 
+     const data = await response.json();
+     return data.results;
+
+
   } catch (error) {
-    console.error(error)
+    console.error('Failed to fetch starships', error);
     
   }
 
